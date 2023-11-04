@@ -1,9 +1,8 @@
 import React from "react";
-// import fonts to go here
-// import icons pen to go here
-// import icons trash to go here
+import penIcon from "./src/assets/iconmonstr-pencil-square-lined.svg";
+import trashIcon from "./src/assets/iconmonstr-trash-can-28.svg";
 
-export const Todo = ({ task, deleteTodo, editTodo, toggleComplete }) => {
+const Todo = ({ task, deleteTodo, editTodo, toggleComplete }) => {
   return (
     <div className="ToDo">
       <p
@@ -13,9 +12,21 @@ export const Todo = ({ task, deleteTodo, editTodo, toggleComplete }) => {
         {task.task}
       </p>
       <div>
-        {/* icons will go here
-      icons will go here */}
+        <img
+          className="edit-icon"
+          src={penIcon}
+          alt="Edit"
+          onClick={() => editTodo(task.id)}
+        />
+        <img
+          className="delete-icon"
+          src={trashIcon}
+          alt="Delete"
+          onClick={() => deleteTodo(task.id)}
+        />
       </div>
     </div>
   );
 };
+
+export default Todo;

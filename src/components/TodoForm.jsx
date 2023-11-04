@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-export const TodoForm = ({ addTodo }) => {
+const TodoForm = ({ addTodo }) => {
   const [value, setValue] = useState("");
 
   const handleSubmit = (event) => {
@@ -26,3 +26,5 @@ export const TodoForm = ({ addTodo }) => {
     </form>
   );
 };
+
+export default TodoForm;

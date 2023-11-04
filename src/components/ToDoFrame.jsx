@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import { ToDo } from "./ToDo";
-import { TodoForm } from "./TodoForm";
-import { TodoFormInput } from "./TodoFormInput";
+import ToDo from "./ToDo.jsx";
+import TodoForm from "./TodoForm.jsx";
+import TodoFormInput from "./TodoFormInput.jsx";
 import { v4 as uuidv4 } from "uuid";
 
-export const ToDoFrame = () => {
+const ToDoFrame = () => {
   const [todos, setTodos] = useState([]);
 
   const addTodo = (todo) => {
@@ -59,3 +59,5 @@ export const ToDoFrame = () => {
     </div>
   );
 };
+
+export default ToDoFrame;
