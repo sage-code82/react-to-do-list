@@ -3,7 +3,7 @@ import ToDoFrame from "./components/ToDoFrame";
 
 function App() {
   return (
-    <div classname="App">
+    <div className="App">
       <ToDoFrame />;
     </div>
   );

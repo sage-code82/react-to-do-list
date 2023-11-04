@@ -1,6 +1,6 @@
 import React from "react";
-import penIcon from "./src/assets/iconmonstr-pencil-square-lined.svg";
-import trashIcon from "./src/assets/iconmonstr-trash-can-28.svg";
+import penIcon from "../assets/iconmonstr-pencil-square-lined.svg";
+import trashIcon from "../assets/iconmonstr-trash-can-28.svg";
 
 const Todo = ({ task, deleteTodo, editTodo, toggleComplete }) => {
   return (
@@ -22,7 +22,7 @@ const Todo = ({ task, deleteTodo, editTodo, toggleComplete }) => {
           className="delete-icon"
           src={trashIcon}
           alt="Delete"
-          onClick={() => deleteTodo(task.id)}
+          onClick={() => deleteToDo(task.id)}
         />
       </div>
     </div>

@@ -14,7 +14,7 @@ const ToDoFrame = () => {
     ]);
   };
 
-  const deleteToDo = (id) => setTodos(todos.filter((todo) => todo.id !== id));
+  const deleteTodo = (id) => setTodos(todos.filter((todo) => todo.id !== id));
 
   const toggleComplete = (id) => {
     setTodos(
@@ -50,7 +50,7 @@ const ToDoFrame = () => {
           <ToDo
             key={todo.id}
             task={todo}
-            deleteToDo={deleteToDo}
+            deleteToDo={deleteTodo}
             editTodo={editTodo}
             toggleComplete={toggleComplete}
           />
