@@ -3,7 +3,6 @@ import { ToDo } from "./ToDo";
 import { TodoForm } from "./TodoForm";
 import { TodoFormInput } from "./TodoFormInput";
 import { v4 as uuidv4 } from "uuid";
-const pooEmoji = "💩";
 
 export const ToDoFrame = () => {
   const [todos, setTodos] = useState([]);
@@ -42,7 +41,7 @@ export const ToDoFrame = () => {
 
   return (
     <div className="ToDoFrame">
-      <h1>pooEmoji Get Shit Done! pooEmoji</h1>
+      <h1>💩 Get Shit Done! 💩</h1>
       <TodoForm addTodo={addTodo} />
       {todos.map((todo) =>
         todo.isEditing ? (
@@ -51,7 +50,7 @@ export const ToDoFrame = () => {
           <ToDo
             key={todo.id}
             task={todo}
-            deleteTodo={deleteTodo}
+            deleteToDo={deleteToDo}
             editTodo={editTodo}
             toggleComplete={toggleComplete}
           />
