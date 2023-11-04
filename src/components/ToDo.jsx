@@ -22,7 +22,7 @@ const Todo = ({ task, deleteTodo, editTodo, toggleComplete }) => {
           className="delete-icon"
           src={trashIcon}
           alt="Delete"
-          onClick={() => deleteToDo(task.id)}
+          onClick={() => deleteTodo(task.id)}
         />
       </div>
     </div>
