@@ -10,7 +10,6 @@ Currently, two official plugins are available:
 # GET SHIT DONE APP
 
 This initially was a task I started at home as a Saturday afternoon project to help me stay ontop of how REACT, useState and components work.
-
 MVP was to have an app that fit the following user story :
 
 As a user I want to be able to quickly note down on my computer a small list of things todo.
@@ -20,7 +19,7 @@ STRETCH GOAL : Confettie falls when a task is done.
 
 ### Takeaways
 
-All the info I needed was in there! However it was all abit jumbled up with the details about API's I had learned this week. (I set all the components as .js files for example)
+All the info I needed was in there! However it was all abit jumbled up with the details about API's I had learned this week. (I set all the components as .js files for example) Would this of been easier to do in vanilla JavaScript? Probably.
 
 I also fell foul a couple of times of the classic steve case error, where I nothing was working and I could not see why. A capital D was throwing my code out of sync entirely! Thanks to GJ from the Tech Educators cohort for finding that gem for me! It is a common thing that keeps coming up with my code but thankfully this does mean that my logic is A o K!
 
