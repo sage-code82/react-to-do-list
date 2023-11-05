@@ -72,3 +72,17 @@ h1 {
 .todo-butt:hover {
   background-color: #333333; /* Slightly darker black on button hover */
 }
+
+.falling-emojis {
+  position: absolute;
+  animation: fall 2s linear infinite;
+}
+
+@keyframes fall {
+  0% {
+    transform: translateY(-100vh);
+  }
+  100% {
+    transform: translateY(100vh);
+  }
+}
