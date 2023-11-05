@@ -1,11 +1,9 @@
-/* App.css */
-
 body {
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
-  background-color: #ffffff; /* White background for the entire page */
-  color: #000000; /* Black text color */
+  background-color: #ba3f1d;
+  color: white;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -13,8 +11,8 @@ body {
 }
 
 .App {
-  background-color: #000000; /* Black background for the main container */
-  color: white; /* Black text color for the main container */
+  background-color: #a77e58;
+  color: black;
   padding: 20px;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -26,10 +24,8 @@ body {
 
 h1 {
   font-size: 24px;
-  color: #ffffff; /* White text color for the header */
+  color: #ffffff;
 }
-
-/* Todo component styles */
 
 .ToDo {
   display: flex;
@@ -71,18 +67,4 @@ h1 {
 
 .todo-butt:hover {
   background-color: #333333; /* Slightly darker black on button hover */
-}
-
-.falling-emojis {
-  position: absolute;
-  animation: fall 2s linear infinite;
-}
-
-@keyframes fall {
-  0% {
-    transform: translateY(-100vh);
-  }
-  100% {
-    transform: translateY(100vh);
-  }
 }
